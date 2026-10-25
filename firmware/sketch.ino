@@ -1,7 +1,7 @@
 
 /*
  * SMART IRRIGATION
- * Version: 0.6.1
+ * Version: 0.1.0
  * Recovery and session management
  */
 
@@ -105,7 +105,7 @@ void setup() {
   pinMode(BOMBA_PIN, OUTPUT);
   pinMode(BOTON_PIN, INPUT_PULLUP);
 
-  Serial.println("Smart Irrigation - V0.6.1");
+  Serial.println("Smart Irrigation - V0.1.0");
 }
 
 void loop() {
